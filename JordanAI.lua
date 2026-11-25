@@ -2783,7 +2783,7 @@ function PROMPT.build(speakerPlayer, speakerName, flags, tier)
     return table.concat(parts, " ")
 end
 
-PROMPT.REMINDER = "Reply like a friendly player: answer directly in 1-2 short sentences, stay consistent with the "
+PROMPT.REMINDER = "Reply like a real human: answer directly in 1-2 short sentences, stay consistent with the "
     .. "conversation so far, and don't repeat yourself. If they asked for an action, end your reply with its tag in "
     .. "square brackets, e.g. [ACTION:WAVE] (exact names from the action list) - without the tag nothing happens. "
     .. "Never add a tag that wasn't asked for. '(did: ...)' notes in the history are records of past actions: never write them."
